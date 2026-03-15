@@ -1,0 +1,30 @@
+.footer {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  border-top: 1px solid var(--border-color);
+  padding: 10px;
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1200px;
+  /* height: 10px; */
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: var(--spacing-lg);
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    gap: var(--spacing-md);
+    text-align: center;
+  }
+}

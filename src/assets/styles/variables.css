@@ -1,0 +1,21 @@
+
+:root {
+  --primary-color: #0366d6;
+  --secondary-color: #24292e;
+  --success-color: #2cbe4e;
+  --danger-color: #cb2431;
+  --text-primary: #24292e;
+  --text-secondary: #586069;
+  --border-color: #e1e4e8;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f6f8fa;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
+  --shadow-md: 0 3px 6px rgba(0,0,0,0.15);
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+}
